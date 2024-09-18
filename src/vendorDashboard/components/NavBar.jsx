@@ -5,7 +5,7 @@ const NavBar = ({showLoginHandler, showRegisterHandler, showLogout, logoutHandle
     return(
         <div className="navSection">
             <div className="company">
-                Vendor Dashboard
+                Swiggy
             </div>
             <div>
                 <h4>{firmName}</h4>
