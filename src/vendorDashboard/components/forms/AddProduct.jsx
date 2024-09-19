@@ -85,7 +85,7 @@ const AddProduct = () => {
             <label>Product Name</label>
             <input type="text" placeholder='Enter Product Name' value={productName} onChange={(e)=> setProductName(e.target.value)}/><br />
             <label>Price</label>
-            <input type="text" placeholder='Enter price ' value={price} onChange={(e)=> setPrice(e.target.value)}/><br />
+            <input type="text" placeholder='Enter Product price ' value={price} onChange={(e)=> setPrice(e.target.value)}/><br />
 
             <div className='checkboxes'>
               <label>Category</label>
@@ -116,9 +116,9 @@ const AddProduct = () => {
             </div> <br />
             
             <label>Product Image</label>
-            <input type="file" placeholder='Enter your ' onChange={handleImageUpload} /><br />
+            <input type="file" placeholder='Enter' onChange={handleImageUpload} /><br />
             <label>Description</label>
-            <input type="text" placeholder='Enter your description' value={description} onChange={(e)=> setDescription(e.target.value)}/><br />
+            <input type="text" placeholder='Enter Product description' value={description} onChange={(e)=> setDescription(e.target.value)}/><br />
             <div className="btnsubmit">
                 <button type='submit'>Submit</button>
             </div>

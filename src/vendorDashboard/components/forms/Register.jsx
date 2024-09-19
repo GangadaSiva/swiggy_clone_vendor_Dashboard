@@ -42,11 +42,11 @@ const handleSubmit = async(e)=>{
         <form className='authform' onSubmit={handleSubmit}>
             <h1> Vendor Register</h1>
             <label>Name</label>
-            <input type="text" name='username' value={username} onChange={(e)=>setUsername(e.target.value)} placeholder='Enter your Name'/><br />
+            <input type="text" name='username' value={username} onChange={(e)=>setUsername(e.target.value)} placeholder='Enter your Name ,ex: John'/><br />
             <label>Email</label>
-            <input type="text" name='email' value={email} onChange={(e)=>setEmail(e.target.value)} placeholder='Enter your email'/><br />
+            <input type="text" name='email' value={email} onChange={(e)=>setEmail(e.target.value)} placeholder='Enter your email, ex: johnn@gmail.com'/><br />
             <label>Password</label>
-            <input type="text" name='password' value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='Enter your Password'/><br />
+            <input type="text" name='password' value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='Enter your Password ex: John@123'/><br />
             <div className="btnsubmit">
                 <button type='submit'>Submit</button>
             </div>

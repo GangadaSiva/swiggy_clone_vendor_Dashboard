@@ -92,9 +92,9 @@ const AddFirm = () => {
         <form className='authform' onSubmit={handleFirmsubmit}>
             <h1> Add Firm</h1>
             <label>Firm Name</label>
-            <input type="text" placeholder='Enter your Name' name='firmName' value={firmName} onChange={(e)=> setFirmname(e.target.value)}/><br />
+            <input type="text" placeholder='Enter Restaurant Name ex: Alpha' name='firmName' value={firmName} onChange={(e)=> setFirmname(e.target.value)}/><br />
             <label>Area</label>
-            <input type="text" placeholder='Enter your 'name='area' value={area} onChange={(e)=> setArea(e.target.value)}/><br />
+            <input type="text" placeholder='Enter Restaurant location'name='area' value={area} onChange={(e)=> setArea(e.target.value)}/><br />
 
 
             <div className='checkboxes'>
@@ -136,9 +136,9 @@ const AddFirm = () => {
             </div>
 
             <label>Offer</label>
-            <input type="text" placeholder='Enter your 'name='offer' value={offer} onChange={(e)=> setOffer(e.target.value)}/><br />
+            <input type="text" placeholder='Enter offer, ex: 50% off'name='offer' value={offer} onChange={(e)=> setOffer(e.target.value)}/><br />
             <label>Firm Image</label>
-            <input type="file" placeholder='Enter your ' onChange={handleImageUpload}/><br />
+            <input type="file" placeholder='Enter ' onChange={handleImageUpload}/><br />
             
             <div className="btnsubmit">
                 <button type='submit'>Submit</button>
