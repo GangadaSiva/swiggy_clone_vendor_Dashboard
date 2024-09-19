@@ -90,8 +90,8 @@ const AddFirm = () => {
   return (
     <div className="firmsection">
         <form className='authform' onSubmit={handleFirmsubmit}>
-            <h1> Add Firm</h1>
-            <label>Firm Name</label>
+            <h1> Add Restaurant</h1>
+            <label>Restaurant Name</label>
             <input type="text" placeholder='Enter Restaurant Name ex: Alpha' name='firmName' value={firmName} onChange={(e)=> setFirmname(e.target.value)}/><br />
             <label>Area</label>
             <input type="text" placeholder='Enter Restaurant location'name='area' value={area} onChange={(e)=> setArea(e.target.value)}/><br />
