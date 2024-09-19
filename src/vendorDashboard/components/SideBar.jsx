@@ -5,7 +5,7 @@ const SideBar = ({showFirmHandler, showProductHandler, ShowAllProductsHandler, s
     <div className="sideBar">
         <ul>
           {showAddFirm ? 
-          <li onClick={showFirmHandler}>Add Firm</li>: "" }
+          <li onClick={showFirmHandler}>Add Restaurant</li>: "" }
             
             <li onClick={showProductHandler}>Add Product</li>
             <li onClick={ShowAllProductsHandler}>All Products</li>
